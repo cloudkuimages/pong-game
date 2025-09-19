@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.game-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00cc99;
+    text-shadow: 0 0 10px rgba(0, 204, 153, 0.5);
+    letter-spacing: 2px;
+}
+
+#pongCanvas {
+    background-color: #1e1e1e;
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 204, 153, 0.2);
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#player-score {
+    color: #4fc3f7;
+}
+
+#ai-score {
+    color: #ff5252;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}
